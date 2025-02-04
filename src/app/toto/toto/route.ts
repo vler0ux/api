@@ -12,7 +12,6 @@ export const GET = async ()=>{
 
 export const POST = async (request: NextRequest)=>{ 
     const body = await request.json();
-    
     return NextResponse.json({message: `Hello World, ${body.data.name}`});
     
 };
