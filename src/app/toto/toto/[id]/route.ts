@@ -10,3 +10,5 @@ export const GET = async (request:NextRequest,
     const {id} =  await params
     return NextResponse.json({message:`${id}`},{status:200});
 };
+
+
