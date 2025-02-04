@@ -1,0 +1,41 @@
+###
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "data":{
+    "name": "Veronique"
+    } 
+}
+
+###
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "data":{
+    "name": "Veronique"
+    } 
+}
+
+
+###
+
+GET http://localhost:3000/api/users
+
+###
+
+POST http://localhost:3000/api/qcms
+Content-Type: application/json
+
+{
+    "data":{
+    "title": "Le QCM de Veronique"
+    } 
+}
+
+###
+
+GET http://localhost:3000/api/qcms
