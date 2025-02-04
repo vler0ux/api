@@ -1,10 +1,10 @@
-import { PrismaClient } from "@prisma/client/extension";
+import { PrismaClient } from "@prisma/client";
 import { NextRequest, NextResponse } from "next/server";
 
 
 const prisma = new PrismaClient()
 export const GET = async ()=>{ 
-    await prisma.user.findMany
+    await prisma.user.findMany()
 
     return NextResponse.json({message: "Hello World"});
     
